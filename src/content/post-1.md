@@ -1,8 +1,8 @@
 ---
-title: "This is such a long headline and i dont know what to write so i keep continiung"
-date: "2019-03-17"
+title: This is a test post!
+date: "2020-02-22"
 draft: false
-path: "/blog/example-title"
+path: "/blog/test-post-1"
 ---
 # H1
 
@@ -16,7 +16,7 @@ path: "/blog/example-title"
 
 ###### H6
 
-Paragraph
+Paragrap
 
 ---
 

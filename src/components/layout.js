@@ -42,16 +42,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle="imchrispcc"/>
         <Content>
           <main>{children}</main>
-          <Footer>
-            <p>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            </p>
-            <GatsbyLink href="https://www.gatsbyjs.org">Gatsby</GatsbyLink>
-          </Footer>
         </Content>
       </>
     )}
