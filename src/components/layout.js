@@ -13,15 +13,7 @@ import styled from "@emotion/styled"
 import Header from "./header"
 import "./layout.css"
 
-
-
-const GatsbyLink = styled.a`
-  margin-left: 5px;
-`
-
 const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
 `
 
 const Layout = ({ children }) => (
