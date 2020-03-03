@@ -724,7 +724,7 @@ orange ish #FFD3D6}
     transition: border-color 0.2s linear;
 }
 .card {
-    border-radius: 10px;
+    border-radius: 20px;
     border-width: 2px;
     border-bottom-style: solid;
     border-color: #eee;
