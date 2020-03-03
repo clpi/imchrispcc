@@ -8,7 +8,7 @@ const Projects = () => (
     <SEO title="projects" keywords={[`gatsby`, `application`, `react`]} />
     <h1>projects</h1>
     <p>
-    this is where I will list all of the projects I'm working on...:w
+        The projects I'm currently involved in are top secret!
     </p>
   </Layout>
 )
