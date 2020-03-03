@@ -14,7 +14,8 @@ import Header from "./header"
 import "./layout.css"
 
 const Content = styled.div`
-  margin: 0 auto;
+  margin: 2rem auto;
+  margin-left: 30em;
   max-width: 860px;
   padding: 0 1.0875rem 1rem;
   padding-top: 0;
@@ -43,8 +44,8 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle="imchrispcc"/>
-        <Content>
-          <main>{children}</main>
+        <Content className="content">
+          <main className="main">{children}</main>
         </Content>
       </>
     )}
