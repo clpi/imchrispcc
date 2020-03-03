@@ -13,13 +13,7 @@ import styled from "@emotion/styled"
 import Header from "./header"
 import "./layout.css"
 
-const Content = styled.div`
-  margin: 2rem auto;
-  margin-left: 30em;
-  max-width: 860px;
-  padding: 0 1.0875rem 1rem;
-  padding-top: 0;
-`
+
 
 const GatsbyLink = styled.a`
   margin-left: 5px;
@@ -44,9 +38,9 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle="imchrispcc"/>
-        <Content className="content">
+        <div className="content">
           <main className="main">{children}</main>
-        </Content>
+        </div>
       </>
     )}
   />
