@@ -39,6 +39,7 @@ const LandingBio = () => (
             <p className="description">site under construction!</p>
             <p>If you need to reach me, message me at my <a href="http://github.com/chrisp1877" className="home">GitHub</a> for now!</p>
         </div>
+
       </OuterContainer>
     )}
   />
