@@ -90,7 +90,7 @@ export default ({ data }) => {
         </HeaderDate>
           <p style={{opacity:"70%"}}>Tags: <span className="blog">{post.frontmatter.tags}</span></p>
         </div>
-        <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} className="post"/>
           <Link to="/blog" className="blog"><h3>(back to blog)</h3></Link>
       </Content>
     </Layout>
