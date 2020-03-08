@@ -18,8 +18,7 @@ const MarkedHeader = styled.h1`
 
 const HeaderDate = styled.h4`
   margin-top: 10px;
-  color: #FACEE2;
-  opacity: 50%;
+  opacity: 100%;
 `
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
@@ -82,15 +81,17 @@ export default ({ data }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <Content>
-          <div className="blogEntry">
+        <div className="blogHeader">
         <MarkedHeader className="blog">{post.frontmatter.title}</MarkedHeader>
         <HeaderDate>
           {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
           <p style={{opacity:"70%"}}>Tags: <span className="blog">{post.frontmatter.tags}</span></p>
         </div>
+        <Content>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} className="post"/>
+         <hr/>
+         <p>Tags: <span className="blog">{post.frontmatter.tags}</span></p>
           <Link to="/blog" className="blog"><h3>(back to blog)</h3></Link>
       </Content>
     </Layout>

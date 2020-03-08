@@ -491,7 +491,8 @@ hr {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: calc(1.45rem - 1px);
-  background: hsla(0, 0%, 0%, 0.2);
+  background: #666;
+  box-shadow: 0px 1px 1px #111;
   border: none;
   height: 1px;
 }
@@ -719,7 +720,20 @@ orange ish #FFD3D6}
     margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
-
+}
+.blogHeader {
+    border-radius: 10px;
+    border-width: 1px;
+    border-bottom-style: groove;
+    border-color: #DAAEC2;
+    width: 100%;
+    background-image: radial-gradient(rgba(50, 50, 50, 0.5), rgba(42, 42,42, 0.5));
+    box-shadow:0px -1px 1px rgb(100, 100, 100);
+    padding: 35px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .blogEntry:hover {
     background-image: linear-gradient(rgb(50, 50, 50), rgb(40, 40, 40));

@@ -1,5 +1,5 @@
 ---
-title: "Code Example"
+title: "This is a long title to make sure everything appears okay in the list"
 date: "2019-06-06"
 draft: false
 path: "/blog/code-example"
