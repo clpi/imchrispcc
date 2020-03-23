@@ -15,7 +15,7 @@ const Contact = () => (
       </div>
 
     <div className="card" id="contactCard">
-      <a href="https://www.linkedin.com/in/chris-pecunies-641b8a101/" class="contact"><h3>LinkedIn</h3></a>
+      <a href="https://www.linkedin.com/in/chrispecunies" class="contact"><h3>LinkedIn</h3></a>
       </div>
 
         <div className="card" id="contactCard">
