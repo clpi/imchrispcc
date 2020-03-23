@@ -1,5 +1,5 @@
 import React from "react"
-
+import logo from "../images/logo01crw.png"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -13,6 +13,13 @@ const Projects = () => (
       <p>
          I'm curretly in a transition period, in between graduating with my bachelors and hopefully finding a grad school program in the very near future.
       </p>
+       <div className="card" id="projectsCard">
+          <h2 className="projects">CUSYS.io</h2>
+         <p style={{alignItems:"center"}}>
+            <img src={logo}/>
+           <p>Under construction!</p>
+          </p>
+      </div>
       <div className="card" id="projectsCard">
           <h2 className="projects">GEMSEC Neuropeptide Project</h2>
           <p>Use signal processing and statistical sequence motif analysis to predict candidate neuropeptides with graphene-binding behavior similar to a set of known graphene-binding peptides. Working on this project alongside other students in the Genetically Engineered Materials Science & Engineering Center.</p>
